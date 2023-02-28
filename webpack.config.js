@@ -21,12 +21,12 @@ module.exports = {
       },
     ],
     loaders: [{
-        test: /\.js?$/,
-        exclude: /node_modules/,
-        loader: 'barbel-loader',
-        query: {
-            presets: ['env']
-        }
+      test: /\.js?$/,
+      exclude: /node_modules/,
+      loader: 'barbel-loader',
+      query: {
+        presets: ['env'],
+      },
     }],
   },
 };
