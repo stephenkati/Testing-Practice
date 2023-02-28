@@ -67,3 +67,4 @@ test('capitalise first letter in stephen', () => {
   const string = 'stephen';
   expect(capitaliseString(string)).toMatch(/Stephen/);
 });
+
