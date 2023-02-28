@@ -1,0 +1,34 @@
+
+const stringLength = (string) => {
+  if(string.length >= 1 && string.length <= 10){
+    return string.length;
+  }
+  else{
+    return 'Invalid string!';
+  }
+}
+
+const reverseString = (string) => {
+  return string.split("").reverse().join("");
+}
+
+const math = {
+  sum(a, b) {
+    return a + b;
+  },
+  subtract(a, b) {
+    return a - b;
+  },
+  multiply(a, b) {
+    return a * b;
+  },
+  division(a, b) {
+    return a / b;
+  }
+}
+
+const capitaliseString = (string) => {
+  return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+export {stringLength, reverseString, math, capitaliseString};
